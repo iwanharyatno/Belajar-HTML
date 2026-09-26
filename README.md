@@ -1,6 +1,6 @@
 # Belajar HTML
 
-Folder untuk praktik pembelajaran Ekstrakurikuler Pemrograman SMP IT Al-Irsyad Purwokerto.
+Folder untuk praktik pembelajaran Ekstrakurikuler Pemrograman SMP Al Irsyad Al Islamiyyah  Purwokerto.
 
 ## Daftar Materi dan File
 

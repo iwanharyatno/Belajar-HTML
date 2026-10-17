@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foggy Castle</title>
+
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        .title {
+            background-color: darkblue;
+            color: white;
+            margin: 0;
+            padding: 18px;
+        }
+        .hero {
+            background-image: url('media/foggy-castle.jpg');
+            height: 80vh;
+            background-size: cover;
+            background-position: center;
+        }
+        .hero-title {
+            margin: 0;
+        }
+
+        .hero-shadow {
+            height: 80vh;
+            background-image: 
+                linear-gradient(
+                    0deg, black, transparent);
+        }
+
+        .hero-content {
+            margin: auto;
+            width: 400px;
+            text-align: center;
+            padding-top: 120px;
+            color: white;
+        }
+
+        .btn-primary {
+            border: none;
+            padding: 12px 18px;
+            border-radius: 8px;
+            color: white;
+            background-color: darkblue;
+        }
+
+        .btn-secondary {
+            border: 1px solid white;
+            padding: 12px 18px;
+            border-radius: 8px;
+            color: white;
+            background-color: transparent;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1 class="title">Foggy Castle</h1>
+        <div class="hero">
+            <div class="hero-shadow">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        Welcome to Foggy Castle!
+                    </h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Molestiae dolorum aliquam, tempora fugit saepe ducimus optio quod.
+                        Facere quam quo in quibusdam aliquam fugit eaque distinctio? Doloribus est magnam quia.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn-primary">CONTACT US</button>
+                        <button class="btn-secondary">SEE MORE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+</body>
+</html>
